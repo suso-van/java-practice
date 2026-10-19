@@ -13,5 +13,9 @@ public class Loops {
             System.out.println("Current number: " + n);
             n--;
         }
+        do {
+            System.out.println("Current number in do-while loop: " + n);
+            n++;
+        } while(n <= 5);
     }
 }
